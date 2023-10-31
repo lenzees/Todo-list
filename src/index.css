@@ -5,9 +5,89 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #2596be;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.main{
+  display: flex;
+  justify-content: center;
+}
+.contenaire{
+  width: 400px;
+  height: auto;
+  background-color: white;
+  margin-top: 150px;
+  border-radius: 10px;
+}
+h2{
+  margin-top: 20px;
+  font-size: 40px;
+}
+.todo{
+  margin: 0;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+}
+.validez{
+  height: 30px;
+  width: 75px;
+  margin-left: 30px;
+  color: white;
+  background-color: #2596be;
+  border-radius: 5px;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+.box{
+  height: 30px;
+  width: 350px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  
+}
+.text{
+  background-color: aquamarine;
+  height: 30px;
+  width: 250px;
+  border-radius: 10px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.check{
+  background-color: transparent;
+  margin-right: 15px;
+  border: none;
+  
+}
+.icheck{
+  height: 20px;
+  width: 20px;
+}
+.poubelle{
+  background-color: transparent;
+  border: none;
+}
+.ipoubelle{
+  height: 25px;
+  width: 25px;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  align-items: center;
+  justify-content: center;
 }
